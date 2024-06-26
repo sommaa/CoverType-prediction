@@ -66,17 +66,17 @@ distance to hydrology, soil type and many others.
   
   | Model                  | Accuracy [%] | Parameters | Size [MB] | Training Time   |
   |------------------------|--------------|------------|-----------|-----------------|
-  | Bagging-based          | 97           | 3.9M       | 24        | 5 min           |
-  | DecisionTree-based     | 92           | 6k         | 3         | 2 min           |
-  | DecisionTree-based opt | 90           | 3k         | 0.72      | ~20 seconds     |
+  | Bagging-based - Rescaled    | 97           | 3.9M       | 24        | 5 min           |
+  | DecisionTree-based - Rescaled   | 92           | 6k         | 3         | 2 min           |
+  | DecisionTree-based opt - Rescaled | 90           | 3k         | 0.72      | ~20 seconds     |
 
   ## :racehorse: Performance NN
 
   | Model                | Accuracy [%] | Parameters | Size [kB] | Training Time   |
   |----------------------|--------------|------------|-----------|-----------------|
-  | NN - R               | 93.3         | 233.9k     | 2850      | 9 min           |
-  | NN opt - Nquant - R     | 90.3         | 10.6k      | 172       | 4 min           |
-  | NN opt - quant - R      | 90           | 10.6k      | 19.5      | 4 min           |
+  | NN - Rescaled               | 93.3         | 233.9k     | 2850      | 9 min           |
+  | NN opt - non-quantized - Rescaled     | 90.3         | 10.6k      | 172       | 4 min           |
+  | NN opt - quantized - Rescaled      | 90           | 10.6k      | 19.5      | 4 min           |
 
   ## :classical_building: NN Acrhitecture
 
